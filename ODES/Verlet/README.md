@@ -1,4 +1,4 @@
-# project3_einstein
+# Verlet_Project
 
 - Individual task files contain functions that return accelerations to the Verlet integrators.  
 - Algorithms file contains all variations of the Verlet integrator created.  
