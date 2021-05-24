@@ -9,7 +9,7 @@ int main()
   chrono::time_point<std::chrono::system_clock> start, end;
   start = chrono::system_clock::now();
 
-  float a[3], w=2.*M_PI, m=1., x[3] = {-1., 0., 0.}, v[3] = {0., 2*M_PI, 0.}, x_full[3], v_full[3], v_half[3], dt=0.0001, t0=0., t1=10.;
+  double a[3], w=2.*M_PI, m=1., x[3] = {-1., 0., 0.}, v[3] = {0., 2*M_PI, 0.}, x_full[3], v_full[3], v_half[3], dt=0.00001, t0=0., t1=10.;
   int i, ii, j = 0;
 
   ofstream file;
