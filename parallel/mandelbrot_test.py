@@ -1,11 +1,10 @@
-#from PIL import Image, ImageDraw
 import numpy as np
-#from numba import jit
+from numba import jit
 from multiprocessing import Pool
 import time
 
 
-#@jit(nopython=True)
+@jit(nopython=True)
 def calculate(x):
     """
     Receive complex number x, return number of iterations
